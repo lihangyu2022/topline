@@ -5,6 +5,8 @@ import store from './store'
 import utils from './utils/register-vant.js'
 import './styles/index.less'
 import 'amfe-flexible'
+// 加载验证组件
+import './utils/validation'
 Vue.config.productionTip = false
 
 new Vue({

@@ -5,8 +5,10 @@ import {
   Cell,
   CellGroup,
   NavBar,
-  Field
-
+  Field,
+  Toast,
+  CountDown,
+  Icon
 } from 'vant'
 
 Vue
@@ -15,3 +17,6 @@ Vue
   .use(CellGroup)
   .use(NavBar)
   .use(Field)
+  .use(Toast)
+  .use(CountDown)
+  .use(Icon)

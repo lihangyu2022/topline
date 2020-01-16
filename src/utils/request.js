@@ -6,7 +6,6 @@ const request = axios.create({
   baseURL: 'http://ttapi.research.itcast.cn/' // 基础路径
 })
 
-export default
 // axios 开放了自定义转换后端返回数据的 API
 // data 就是后端返回的原始数据
 request.defaults.transformResponse = [function (data) {
@@ -25,3 +24,4 @@ request.defaults.transformResponse = [function (data) {
     return {}
   }
 }]
+export default request
